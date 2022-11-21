@@ -1,5 +1,5 @@
 { "name": "rusha-sha1hex-sync-simple",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Calculate a SHA-1 hex digest of short or medium length strings in node.js or a web browser (bundling required) independent of which protocol your website was loaded from.",
   "keywords": [
     "browser",
@@ -24,7 +24,6 @@
 
   "private": false, "license": "MIT",
 
-  "main": "index.mjs",
   "scripts": { "test": "elp && nodemjs test/basics.mjs" },
   "directories": { "test": "test" },
   "eslintConfig": { "extends": "nodejs-pmb" },

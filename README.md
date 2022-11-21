@@ -56,6 +56,7 @@ Known issues
 ------------
 
 * Needs more/better tests and docs.
+* Rusha fails in Waterfox 56.6 (2022.08) with "Error: out of memory"
 
 
 

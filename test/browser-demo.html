@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html><head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Rusha Web Demo</title>
+  <meta name="viewport" content="width=device-width">
+  <meta http-equiv="Content-Script-Type" content="text/javascript">
+</head><body>
+
+<form action="nope://" method="post">
+  <p>Input:<br><textarea id="input" wrap="off" cols="80" rows="20"
+    style="resize: both;"></textarea></p>
+  <p><input type="submit" value="Calculate &rarr;">
+    SHA-1: <code></code></p>
+</form>
+<script>
+  window.exports = {};
+</script>
+<script src="../../rusha/dist/rusha.min.js"></script>
+<script>
+  window.Rusha = window.exports.Rusha;
+  window.require = function r() { return Rusha; };
+  window.module = { exports: {} };
+</script>
+<script src="../index.js"></script>
+<script src="browser-demo.js"></script>
+
+</body></html>

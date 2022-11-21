@@ -25,7 +25,7 @@
   "private": false, "license": "MIT",
 
   "main": "index.mjs",
-  "scripts": { "test": "elp && nodemjs test.mjs" },
+  "scripts": { "test": "elp && nodemjs test/basics.mjs" },
   "directories": { "test": "test" },
   "eslintConfig": { "extends": "nodejs-pmb" },
 

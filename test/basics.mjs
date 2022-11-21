@@ -2,7 +2,7 @@
 
 import assert from 'assert';
 
-import sha1hex from './index.mjs';
+import sha1hex from '../index.mjs';
 
 const eq = assert.strictEqual;
 
